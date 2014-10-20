@@ -24,8 +24,8 @@ NSString *const kTimeoutKey = @"Timeout";
 
 NSTimeInterval const kRZWebServiceRequestDefaultTimeout = 60;
 
-// This is used to print out the date of every web call that is made.
-#define RZWebManagerDeepWebLogging DEBUG && 1
+// This is used to print out the data of every web call that is made.
+#define RZWebManagerDeepWebLogging DEBUG && 0
 
 @interface RZWebServiceRequest()
 
